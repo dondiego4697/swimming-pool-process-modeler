@@ -1,0 +1,14 @@
+{
+  "name": "swimming-pool",
+  "version": "1.0.0",
+  "scripts": {},
+  "author": {
+    "name": "Denis Stepanov",
+    "email": "dondiego4697@mail.ru"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^2.7.3"
+  },
+  "devDependencies": {}
+}

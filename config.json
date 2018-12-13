@@ -1,0 +1,10 @@
+{
+    "rowsCount": 5,
+    "maxCountOnRows": 5,
+    "waitingTimeInQueueInterval": [10, 30],
+    "sessionDuration": 45,
+    "prepareBeforeSessionInterval": [10, 15],
+    "workingTime": [10, 18],
+    "timeIntervalVisitorsComing": [1, 11],
+    "countIntervalVisitorsComing": [1, 4]
+}

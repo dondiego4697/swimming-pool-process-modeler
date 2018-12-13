@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title></title>
+    <script src="../node_modules/chart.js/dist/Chart.bundle.js"></script>
+</head>
+
+<body>
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <script>
+        var ctx = document.getElementById("myChart").getContext('2d');
+        var myLineChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: "%labels%",
+                datasets: "%datasets%"
+            },
+            options: {}
+        });
+    </script>
+    <div style="position: fixed; bottom: 0; left: 0; color: black; background: gray;">
+        <p>"%config%"</p>
+    </div>
+</body>
+
+</html>>
